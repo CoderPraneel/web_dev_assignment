@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Recipe Website</title>
+<style>
+/* CSS styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.recipe {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.recipe h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.ingredients {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.instructions {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+/* Design symbols */
+.ingredients::before {
+    content: "\2022"; /* Bullet symbol */
+    margin-right: 5px;
+    color: #333;
+}
+
+.instructions::before {
+    content: "\25BA"; /* Right arrow symbol */
+    margin-right: 5px;
+    color: #333;
+}
+
+/* Add your CSS styles here */
+</style>
+</head>
+<body>
+<header class="header">
+    <h1>Delicious Recipes</h1>
+</header>
+<div class="container">
+    <article class="recipe">
+        <h2>Spaghetti Carbonara</h2>
+        <div class="ingredients">
+            <h3>Ingredients:</h3>
+            <ul>
+                <li>200g spaghetti</li>
+                <li>100g pancetta or guanciale</li>
+                <li>2 large eggs</li>
+                <li>50g grated Parmesan cheese</li>
+                <li>2 cloves garlic, minced</li>
+                <li>Salt and pepper to taste</li>
+                <!-- Add more ingredients if needed -->
+            </ul>
+        </div>
+        <div class="instructions">
+            <h3>Instructions:</h3>
+            <ol>
+                <li>Cook spaghetti according to package instructions.</li>
+                <li>In a skillet, cook pancetta or guanciale until crispy. Add garlic and cook until fragrant.</li>
+                <li>In a bowl, whisk together eggs and Parmesan cheese.</li>
+                <li>Drain spaghetti and immediately add to the skillet with pancetta. Remove from heat.</li>
+                <li>Quickly stir in the egg and cheese mixture, allowing the residual heat to cook the eggs and create a creamy sauce.</li>
+                <li>Season with salt and pepper to taste. Serve hot.</li>
+            </ol>
+        </div>
+    </article>
+    <!-- Add more recipes here -->
+</div>
+</body>
+</html>
